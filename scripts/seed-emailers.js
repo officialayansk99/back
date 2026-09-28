@@ -37,29 +37,29 @@ if (syncExisting) {
 
 /**
  * Equiti Capitals brand palette — mirrors frontend/src/index.css
- * ("Midnight & Sapphire": sapphire primary, midnight-navy header, cool page).
- * Sapphire is a fill with WHITE text on it (`onPrimary`); `primaryDeep` is the
- * AA-legible blue for links/emphasis on the white body; `accentBright` is the
- * brighter sapphire that sits on the navy header.
+ * ("Plum & Copper": plum primary, deep-aubergine header, porcelain page).
+ * Plum is a fill with WHITE text on it (`onPrimary`) and is also dark enough
+ * to use for links/emphasis on the white body (`primaryDeep`); `accentBright`
+ * is the copper that sits on the aubergine header.
  */
 const BRAND = {
-  primary: "#245be0", // sapphire (fills: buttons, rules)
-  onPrimary: "#ffffff", // text on sapphire fills
-  primaryDeep: "#1d4ed8", // deep blue for text/links on white
-  accentBright: "#6699ff", // bright sapphire on the navy header
-  ink: "#0a1428", // midnight navy
-  pageBg: "#f5f7fb", // cool off-white
-  text: "#0f172a", // navy ink
-  textMuted: "#64748b",
-  textSubtle: "#334155",
-  border: "#e2e8f0",
-  footerBg: "#f8fafc",
-  primarySoft: "#eaf0fd", // soft blue tint for info boxes
-  primaryBorder: "#bcd0f7",
+  primary: "#6a1f5c", // plum (fills: buttons, rules)
+  onPrimary: "#ffffff", // text on plum fills
+  primaryDeep: "#6a1f5c", // plum for text/links on white
+  accentBright: "#f0955a", // copper on the aubergine header
+  ink: "#1e1024", // deep aubergine
+  pageBg: "#f8f7f9", // porcelain
+  text: "#1a1320", // aubergine ink
+  textMuted: "#6e6475",
+  textSubtle: "#3d3242",
+  border: "#e7e2ea",
+  footerBg: "#faf9fb",
+  primarySoft: "#f6edf4", // soft plum tint for info boxes
+  primaryBorder: "#e3c7dc",
   success: "#15804f",
   successIcon: "#0f6b41",
-  pillFg: "#0f172a", // navy text on the blue pill
-  pillBg: "#dbe6fc", // light blue pill
+  pillFg: "#1a1320", // ink text on the plum pill
+  pillBg: "#f1e1ec", // light plum pill
 };
 
 /**
