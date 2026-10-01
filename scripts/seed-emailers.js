@@ -37,29 +37,29 @@ if (syncExisting) {
 
 /**
  * Equiti Capitals brand palette — mirrors frontend/src/index.css
- * ("Plum & Copper": plum primary, deep-aubergine header, porcelain page).
- * Plum is a fill with WHITE text on it (`onPrimary`) and is also dark enough
- * to use for links/emphasis on the white body (`primaryDeep`); `accentBright`
- * is the copper that sits on the aubergine header.
+ * ("Onyx & Teal": mint-teal primary, onyx header, bone-white page).
+ * Mint is a light fill, so it takes ONYX text on top (`onPrimary`);
+ * `primaryDeep` is the AA-legible deep teal for links/emphasis on the white
+ * body; `accentBright` is the mint that sits on the onyx header.
  */
 const BRAND = {
-  primary: "#6a1f5c", // plum (fills: buttons, rules)
-  onPrimary: "#ffffff", // text on plum fills
-  primaryDeep: "#6a1f5c", // plum for text/links on white
-  accentBright: "#f0955a", // copper on the aubergine header
-  ink: "#1e1024", // deep aubergine
-  pageBg: "#f8f7f9", // porcelain
-  text: "#1a1320", // aubergine ink
-  textMuted: "#6e6475",
-  textSubtle: "#3d3242",
-  border: "#e7e2ea",
-  footerBg: "#faf9fb",
-  primarySoft: "#f6edf4", // soft plum tint for info boxes
-  primaryBorder: "#e3c7dc",
+  primary: "#83cfc1", // mint teal (fills: buttons, rules)
+  onPrimary: "#0b0b0d", // onyx text on mint fills
+  primaryDeep: "#1f7a6d", // deep teal for text/links on white
+  accentBright: "#83cfc1", // bright mint on the onyx header
+  ink: "#0b0b0d", // onyx
+  pageBg: "#f4f1ea", // bone white
+  text: "#1a1a1e", // charcoal
+  textMuted: "#6a6a72",
+  textSubtle: "#41414a",
+  border: "#e5e2da",
+  footerBg: "#f7f5f0",
+  primarySoft: "#e7f6f2", // soft teal tint for info boxes
+  primaryBorder: "#bfe3da",
   success: "#15804f",
   successIcon: "#0f6b41",
-  pillFg: "#1a1320", // ink text on the plum pill
-  pillBg: "#f1e1ec", // light plum pill
+  pillFg: "#1a1a1e", // onyx text on the teal pill
+  pillBg: "#cfeae3", // light teal pill
 };
 
 /**
