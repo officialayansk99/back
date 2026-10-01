@@ -63,12 +63,12 @@ const BRAND = {
 };
 
 /**
- * Mail clients strip <link> and @import, so webfonts never load here — asking
- * for Fraunces would silently fall back anyway. Georgia is the web-safe
- * stand-in for the site's serif display face.
+ * Mail clients strip <link> and @import, so webfonts never load here — the
+ * stack falls through to a system sans. Headings use the same stack as body
+ * copy (kept under the legacy `serif` name).
  */
 const font = "Inter,'Segoe UI',Roboto,Helvetica,Arial,sans-serif";
-const serif = "Georgia,'Times New Roman',Times,serif";
+const serif = font;
 
 /** The header <img> points at this Content-ID; mail.service.js attaches the
  *  logo file whenever it sees the token in a rendered body. */
